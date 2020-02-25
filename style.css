@@ -8,7 +8,7 @@ body {
   padding: 0px;
   height: 100%;
   width:100%;
-  background-color: #e6ffff;
+  background-color: white;
 }
 
 p, a {
@@ -16,6 +16,7 @@ p, a {
   text-decoration: none;
   color: #777777;
   font-size: 17px;
+  font-family: 'Zilla Slab', Arial, Helvetica, sans-serif ;
 }
 
 #about {
@@ -85,7 +86,7 @@ nav a {
   color: white;
   padding: 25px 10px;
   border-right: 1px solid grey;
-  font-family: 'Zilla Slab', cursive ;
+  font-family: 'Zilla Slab', Arial, Helvetica, sans-serif ;
 }
 
 nav a:last-child {
@@ -131,6 +132,7 @@ nav a:last-child {
   width: 200px;
   margin-right: 20px;
   margin-bottom: 15px;
+  border-radius:5px;
 }
 
 #portfolio {
@@ -309,9 +311,9 @@ nav a:last-child {
     font-size:34px;
   }
   .me-pic {
-    width: 30%;
-    margin-left:35%;
-    margin-right:35%;
+    width: 40%;
+    margin-left:30%;
+    margin-right:30%;
   }
   .shortBio {
     
@@ -334,6 +336,14 @@ h1 {
 .soc-links-top i {
   font-size:20px;
   margin-top: 0px;
+}
+
+.picContainer {
+  height:350px;
+}
+
+.portfolioImg {
+  height: 300px;
 }
 
 .contactInfo, .contactInfo a {
