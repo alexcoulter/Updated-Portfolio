@@ -61,8 +61,8 @@ header {
 }
 
 .shortBio {
-  color: white;
-  font-size: 24px;
+  color: rgb(135, 206, 250);
+  font-size: 30px;
   margin-top: 50px;
   margin-left: 20%;
   margin-right: 20%;
@@ -96,12 +96,15 @@ nav a:last-child {
 
 .nav a:hover {
   color: rgb(135, 206, 250);
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
 }
 
 .main {
   margin-top: 5%;
   padding: 20px 30px 15px 30px;
 }
+
 
 #about {
   padding-top: 50px;
@@ -256,6 +259,8 @@ nav a:last-child {
 
 .contactInfo i:hover {
   color: black;
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
 }
 
 .contactInfo button:hover {
@@ -268,12 +273,29 @@ nav a:last-child {
 
 .social-links i {
   margin: 10px 10px;
-  color: black;
+  color: rgb(135, 206, 250);
 }
 
 .social-links i:hover {
-  color: rgb(135, 206, 250);
-}
+  color: white;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
 
 @media (max-width: 830px) {
   .picTextBottom a {
