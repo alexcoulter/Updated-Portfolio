@@ -96,8 +96,11 @@ nav a:last-child {
 
 .nav a:hover {
   color: rgb(135, 206, 250);
-  animation: shake 0.5s;
-  animation-iteration-count: infinite;
+}
+
+.social-links i {
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .main {
@@ -326,6 +329,13 @@ nav a:last-child {
     margin-right:2%;
     margin-left:2%;
   }
+
+  .contactInfo {
+    text-align:left !important;
+    margin-left: 10%;
+  }
+
+  
 }
 
 @media (max-width: 640px) {
@@ -355,10 +365,6 @@ h1 {
   font-size: 7vw;
 }
 
-.soc-links-top i {
-  font-size:20px;
-  margin-top: 0px;
-}
 
 .picContainer {
   height:350px;
@@ -382,9 +388,8 @@ h1 {
 }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 375px) {
   .navbar {
-    
     height: 34px;
   
   }
@@ -392,4 +397,14 @@ h1 {
   nav a {
     font-size: 18px;
   }
+
+  .soc-links-top i {
+    font-size:20px;
+    margin-top: 0px;
+  }
+
+  .contactInfo {
+    margin-left:2%;
+  }
+  
 }
