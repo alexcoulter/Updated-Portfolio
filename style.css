@@ -357,7 +357,7 @@ nav a:last-child {
 }
 
 @media (max-width: 530px) {
-.social-links i {
+.soc-links-top i {
   color: white;
 }
 
@@ -405,6 +405,11 @@ h1 {
 
   .contactInfo {
     margin-left:2%;
+  }
+
+  .social-links i {
+    padding: 0px 20px;
+    margin:0;
   }
   
 }
