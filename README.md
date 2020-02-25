@@ -25,16 +25,16 @@
 
 * Home screenshot
 
-![Home Screenshot](assets/images/homeSS.jpg)
+![Home Screenshot](assets/images/homeSs.jpg)
 * About screenshot
 
-![About Section Screenshot](assets/images/aboutSS.jpg)
+![About Section Screenshot](assets/images/aboutSs.jpg)
 * Portfolio screenshot
 
-![Portfolio Section Screenshot](assets/images/portfolioSS.jpg)
+![Portfolio Section Screenshot](assets/images/portfolioSs.jpg)
 * Contact screenshot
 
-![Contact Section Screenshot](assets/images/contactSS.jpg)
+![Contact Section Screenshot](assets/images/contactSs.jpg)
 
 ### URL
 * To check out my  Updates Portfolio on Github Pages [Click here](https://alexcoulter.github.io/Updated-Portfolio/#home)
