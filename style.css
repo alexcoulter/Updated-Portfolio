@@ -141,8 +141,10 @@ nav a:last-child {
   background-color: black;
 }
 
-#portfolio h2 {
+ #portfolio h2 {
   color: white;
+  -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .portfolioImg {
@@ -150,66 +152,7 @@ nav a:last-child {
   height: 350px;
 }
 
-/* #passwordImg {
-  background-image: url("assets/images/password.jpg");
-  background-repeat: no-repeat;
-  background-size: cover, contain;
-  
-}
 
-#passwordImg:hover {
-  background-image: url("assets/images/passwordSS.jpg");
- 
-}
-
-#businessImg {
-  background-image: url("assets/images/business.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-#businessImg:hover {
-  background-image: url("assets/images/businessSS.jpg");
-}
-
-#quizImg {
-  background-image: url("assets/images/computer.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-#quizImg:hover {
-  background-image: url("assets/images/quizSs.jpg");
-}
-
-#workdayImg {
-  background-image: url("assets/images/planner.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-#workdayImg:hover {
-  background-image: url("assets/images/WorkdaySs.jpg");
-}
-
-#weatherImg {
-  background-image: url("assets/images/weather.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-#weatherImg:hover {
-  background-image: url("assets/images/weatherSs.jpg");
-}
-
-#petImg {
-  background-image: url("assets/images/pets.jpg");
-  background-size: cover;
-}
-
-#petImg:hover {
-  background-image: url("assets/images/petSs.jpg");
-} */
 
 .picTextTop {
   position: absolute;
@@ -243,6 +186,7 @@ nav a:last-child {
   color: white;
   margin-bottom: 0;
   font-family: 'Zilla Slab', cursive ;
+  border-bottom: 1px dotted white;
 }
 
 .picTextBottom a {
@@ -277,6 +221,8 @@ nav a:last-child {
   font-size: 40px;
   color: rgb(135, 206, 250);
   font-family: 'Trade Winds';
+  -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .contactInfo {
@@ -356,8 +302,12 @@ nav a:last-child {
     margin-right:2%;
     margin-left:2%;
   }
+}
 
 @media (max-width: 640px) {
+  h2, .contact {
+    font-size:34px;
+  }
   .me-pic {
     width: 30%;
     margin-left:35%;
@@ -390,7 +340,24 @@ h1 {
   font-size:20px;
 }
 
+.name {
+  padding-top:15vw;
+}
+
 .shortBio {
   margin-bottom: 0;
+  margin-top:10px;
 }
+}
+
+@media (max-width: 350px) {
+  .navbar {
+    
+    height: 34px;
+  
+  }
+  
+  nav a {
+    font-size: 18px;
+  }
 }
