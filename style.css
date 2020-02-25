@@ -341,9 +341,13 @@ nav a:last-child {
 }
 
 @media (max-width: 768px) {
-  .container-fluid, .container-fluid .container, .header, .container-fluid .row, .col-md-6 {
+  .container-fluid, .container-fluid .container, .header, .container-fluid .row, .col-md-6, .main {
     margin: 0;
     padding: 0;
+  }
+
+  .main {
+    margin-top: 50px;
   }
 
   .picContainer {
@@ -354,7 +358,9 @@ nav a:last-child {
 
 @media (max-width: 640px) {
   .me-pic {
-    width: 100%;
+    width: 50%;
+    margin-left:25%;
+    margin-right:25%;
   }
   .shortBio {
     
