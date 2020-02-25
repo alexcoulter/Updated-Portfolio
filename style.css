@@ -373,4 +373,17 @@ nav a:last-child {
 h1 {
   font-size: 7vw;
 }
+
+.soc-links-top i {
+  font-size:20px;
+  margin-top: 0px;
+}
+
+.contactInfo, .contactInfo a {
+  font-size:20px;
+}
+
+.shortBio {
+  margin-bottom: 0;
+}
 }
