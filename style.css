@@ -350,17 +350,18 @@ nav a:last-child {
     margin-top: 50px;
   }
 
+
   .picContainer {
     margin-bottom: 20px;
+    margin-right:2%;
+    margin-left:2%;
   }
-
-}
 
 @media (max-width: 640px) {
   .me-pic {
-    width: 50%;
-    margin-left:25%;
-    margin-right:25%;
+    width: 30%;
+    margin-left:35%;
+    margin-right:35%;
   }
   .shortBio {
     
