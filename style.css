@@ -34,10 +34,12 @@ h1 {
   font-weight: bold;
   font-size: 5vw;
   font-family: 'Georgia', Times, 'Times New Roman', serif;
+  font-family: 'Trade Winds';
 }
 
 h2 {
   font-size: 40px;
+  font-family: 'Trade Winds';
 }
 
 hr {
@@ -65,6 +67,10 @@ header {
   margin-right: 20%;
 }
 
+.shortBio p, .shortBio a{
+  font-size: 24px;
+}
+
 .navbar {
   background-color: rgba(42, 42, 42, 0.8);
   position: fixed;
@@ -79,6 +85,7 @@ nav a {
   color: white;
   padding: 25px 10px;
   border-right: 1px solid grey;
+  font-family: 'Zilla Slab', cursive ;
 }
 
 nav a:last-child {
@@ -114,6 +121,9 @@ nav a:last-child {
 
 .img-fluid {
   width: 100%;
+}
+
+#portfolio .img-fluid {
   padding: 30px;
 }
 
@@ -124,7 +134,7 @@ nav a:last-child {
 }
 
 #portfolio {
-  background-color: grey;
+  background-image: url("./assets/images/triangular.png");
 }
 
 #portfolio .img-fluid {
@@ -232,11 +242,13 @@ nav a:last-child {
   font-size: 24px;
   color: white;
   margin-bottom: 0;
+  font-family: 'Zilla Slab', cursive ;
 }
 
 .picTextBottom a {
   padding: 0px 40px;
   color: white;
+  font-family: 'Zilla Slab', cursive ;
 }
 
 .btn {
@@ -264,6 +276,7 @@ nav a:last-child {
 .contact {
   font-size: 40px;
   color: rgb(135, 206, 250);
+  font-family: 'Trade Winds';
 }
 
 .contactInfo {
@@ -328,12 +341,15 @@ nav a:last-child {
 }
 
 @media (max-width: 768px) {
-  .container-fluid, .container-fluid .container, .header, .container-fluid .row {
+  .container-fluid, .container-fluid .container, .header, .container-fluid .row, .col-md-6 {
     margin: 0;
     padding: 0;
-    width: 100vw;
   }
-  
+
+  .picContainer {
+    margin-bottom: 20px;
+  }
+
 }
 
 @media (max-width: 640px) {
@@ -347,4 +363,14 @@ nav a:last-child {
     margin-left: 5%;
     margin-right: 5%;
   }
+}
+
+@media (max-width: 530px) {
+.social-links i {
+  color: white;
+}
+
+h1 {
+  font-size: 7vw;
+}
 }
