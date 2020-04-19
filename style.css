@@ -190,8 +190,8 @@ nav a:last-child {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  box-shadow: 10px 15px 7px #777777;
-  background-color: #333333;
+  box-shadow: 10px 15px 7px black;
+  background-color: #111111;
 }
 
 .picTextTop {
