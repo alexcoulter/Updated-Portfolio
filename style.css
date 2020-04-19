@@ -41,7 +41,9 @@ h1 {
 
 h2 {
   font-size: 40px;
-  font-family: 'Trade Winds';
+  text-emphasis: bold;
+  font-family: 'Anton', sans-serif;
+  font-stretch: expanded;
 }
 
 hr {
@@ -115,6 +117,11 @@ nav a:last-child {
   padding: 20px 30px 15px 30px;
 }
 
+.main h2 {
+  color: rgb(135, 206, 250);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
 #about {
   padding-top: 50px;
 }
@@ -161,7 +168,7 @@ nav a:last-child {
 }
 
 #portfolio {
-  background-image: url("./assets/images/triangular.png");
+  background-image: url("./assets/images/blackboard.jpg");
 }
 
 #portfolio .img-fluid {
@@ -238,10 +245,9 @@ nav a:last-child {
   flex: 1 0 auto;
 }
 
-#sticky-footer {
-  flex-shrink: 0;
-  /* margin-top: 5%; */
-  color: white;
+.footer {
+  height: 50px;
+  background-color: rgba(0,0,0,.8);
 }
 
 #contact {
@@ -251,7 +257,7 @@ nav a:last-child {
 .contact {
   font-size: 40px;
   color: rgb(135, 206, 250);
-  font-family: 'Trade Winds';
+  font-family: 'Anton', sans-serif;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 }
